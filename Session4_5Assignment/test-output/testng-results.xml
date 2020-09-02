@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="107095" started-at="2020-09-02T18:05:55Z" finished-at="2020-09-02T18:07:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="107095" started-at="2020-09-02T18:05:55Z" finished-at="2020-09-02T18:07:42Z">
+      <class name="Automation.Session4_5Assignment.AppTest">
+        <test-method status="PASS" signature="NavigateURL()[pri:0, instance:Automation.Session4_5Assignment.AppTest@27efef64]" name="NavigateURL" is-config="true" duration-ms="63022" started-at="2020-09-02T18:05:55Z" finished-at="2020-09-02T18:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateURL -->
+        <test-method status="PASS" signature="CreateAccount()[pri:0, instance:Automation.Session4_5Assignment.AppTest@27efef64]" name="CreateAccount" duration-ms="15664" started-at="2020-09-02T18:06:58Z" finished-at="2020-09-02T18:07:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateAccount -->
+        <test-method status="PASS" signature="AddtoCard()[pri:1, instance:Automation.Session4_5Assignment.AppTest@27efef64]" name="AddtoCard" duration-ms="19704" started-at="2020-09-02T18:07:14Z" depends-on-methods="Automation.Session4_5Assignment.AppTest.CreateAccount" finished-at="2020-09-02T18:07:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCard -->
+        <test-method status="PASS" signature="Card()[pri:2, instance:Automation.Session4_5Assignment.AppTest@27efef64]" name="Card" duration-ms="8008" started-at="2020-09-02T18:07:34Z" finished-at="2020-09-02T18:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Card -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Automation.Session4_5Assignment.AppTest@27efef64]" name="Teardown" is-config="true" duration-ms="669" started-at="2020-09-02T18:07:42Z" finished-at="2020-09-02T18:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Automation.Session4_5Assignment.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
